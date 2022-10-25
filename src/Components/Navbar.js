@@ -18,7 +18,7 @@ const NavBar = (props) => {
                 </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" value={1} onClick={(e) => handleClick(e.currentTarget.getAttribute('value'))}>Home</a>
+                            <a class="nav-link" aria-current="page" value={1} onClick={(e) => handleClick(e.currentTarget.getAttribute('value'))} > Home</a>
                             <a class="nav-link" aria-current="page" value={2} onClick={(e) => handleClick(e.currentTarget.getAttribute('value'))} > About</a>
                             <a class="nav-link" aria-current="page" value={3} onClick={(e) => handleClick(e.currentTarget.getAttribute('value'))} > Contact</a>
                         </div>
