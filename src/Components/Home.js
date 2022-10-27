@@ -29,7 +29,9 @@ const Home = () =>{
 
     return (
         <div>
-            <NavBar state={getPageState} />
+            <nav class="navHomeContainer">
+             <NavBar state={getPageState} />
+            </nav>
             {pageToRender()}
         </div>
     )
